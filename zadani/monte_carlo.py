@@ -1,0 +1,24 @@
+# -*- coding: cp1250 -*-
+import random
+import math
+
+pi = 3.14
+
+def funkce(x):
+    return math.sin(x)
+
+def monte(xmin, xmax, ymin, ymax, N):
+    ''' Bude se generovat N náhodných bodù [x,y] ve ètvereèku definovanym 
+    souøadnicema xmin, xmax, ymin, ymax (napø. x: (0, pi), y: (0, 1)) a
+    za úkol máš vrátit na základì poètu úspìšnejch a neúspìšnejch pokusù, jak 
+    velký je místo pod funkcí funkce(x). '''
+    
+    # here comes the kote
+    
+    return obsah
+    
+print("Funkce sin(x) na intervalu (0,pi) X (0,1) uzavira pod krivkou: ") 
+print(monte(0, pi, 0, 1, 100));
+
+# bonus - ukázat jak se hodnota blíží realitì s rostoucím poètem pokusù :)
+# na to se budou hodit grafy, s tím mùžeš poèkat
